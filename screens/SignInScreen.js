@@ -9,7 +9,8 @@ const SignInScreen = ({ navigation, setAuth }) => {
     if (username === "admin" && password === "admin") {
       setAuth(true);
     } else {
-      Alert.alert("Invalid Credentials", "Username or Password is incorrect.");
+      Alert.alert("Invalid Credentials", 
+                  "Username or Password is incorrect");
     }
   };
 
